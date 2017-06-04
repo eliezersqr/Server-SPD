@@ -2,7 +2,7 @@ import socket
 from notebook.notebookapp import raw_input
 
 HOST = '127.0.0.1'     # Server ip adress
-PORT = 5555            # Server port
+PORT = 5556            # Server port
 
 def createConnection():
     tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
