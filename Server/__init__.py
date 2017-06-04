@@ -1,6 +1,6 @@
 from Server import ServerConnection
 
 def main():
-    ServerConnection.startServer()
+    ServerConnection.startConnectionServer(ServerConnection)
 
 if __name__ == "__main__": main()
