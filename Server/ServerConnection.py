@@ -12,7 +12,7 @@ def startConnectionServer(self):
     try:
         tcp.bind(server)
     except socket.error as msg:
-        print("Erro ao abrir o servidor", msg)
+        print("Erro ao abrir o servidor!", msg)
         sys.exit(1)
         tcp.close()
 
